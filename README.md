@@ -1,7 +1,7 @@
 # Spring-Cloud-Fundamentals
 Theoretical Concepts I learnt in the Courses
 
-#Why we need Spring Cloud in SpringBoot?
+# Why we need Spring Cloud in SpringBoot?
 >Provides Some of the developing tools for developers to build a robust cloud application quickly.
  1.Service Registration
  2.Load Balancing
