@@ -1,0 +1,16 @@
+- Eureka server an application that holds the information about all client service application
+- Eureka server is also an eureka client
+- Used to locate multiple server in our distributed network
+- Helps to identify failured services in distributed network
+- Provides Loadbalancing 
+
+Dependencies:
+- Eureka Discovery Client
+- Eureka Server
+
+# Steps
+ - Create the Project
+ - Add Eureka Server Dependency
+ - Enable Eureka Server
+ - Configure the properties
+ - Test
