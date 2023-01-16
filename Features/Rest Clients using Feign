@@ -1,0 +1,14 @@
+- Used to communicate with Other Microservices
+- Feign Client advantages over RestTemplates is that, we do not need to write any implementatio to call the other services
+
+# Dependency
+- spring-cloud-starter-openfeign
+
+#Annotation
+- @EnableFeignClients
+
+# Steps
+- Add the feign client dependency
+- Create the REST Client
+- Use the REST Client
+- Enable Feign Client and Test
