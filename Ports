@@ -1,0 +1,6 @@
+# Recommended Ports used by Servers
+
+- Eureka Server : 8761
+- Zuul API Gateway : 8765
+- Config Sever : 8888
+- Zipkin Distributed Tracing Server : 9411
