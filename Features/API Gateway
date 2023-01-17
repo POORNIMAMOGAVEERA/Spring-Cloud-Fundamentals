@@ -1,12 +1,12 @@
-Simple but effective way to route to the API in distributed environment.<br />
-Routes the request to various microservices<br />
+Simple but effective way to route to the API in distributed environment.
+Routes the request to various microservices
 
 SpringCloud gateway has 3 important parts
 - Route
 - Predicate
 - Filters
 
-# Provides
+#Provides
 - Security
 - Tracing
 - Service Aggregation
