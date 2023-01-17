@@ -6,7 +6,7 @@ SpringCloud gateway has 3 important parts
 - Predicate
 - Filters
 
-#Provides
+Provides
 - Security
 - Tracing
 - Service Aggregation
