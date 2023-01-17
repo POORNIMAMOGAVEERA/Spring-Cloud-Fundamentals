@@ -1,0 +1,8 @@
+
+- FeignClient works with loadbalancer
+- Load balancing is the process of distributing traffic among different instaces of the same application
+- The Spring cloud Load Balancer library allows us to create applications that communicate with the other applications in load-balanced fashion
+
+
+# Dependency
+- spring-cloud-starter-loadbalancer
