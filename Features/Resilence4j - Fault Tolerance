@@ -1,0 +1,8 @@
+In distributed environment we have bunch of microservices running. If one of the services stop working the entire application goes down<br />
+We want the services to retry and handle the errors gracefully, That's where Resilence4j comes in and allows the application to do *fault tolerance* <br />
+
+# Dependencies
+- spring-boot-starter-actuator
+- resilience4j-spring-boot2
+
+
