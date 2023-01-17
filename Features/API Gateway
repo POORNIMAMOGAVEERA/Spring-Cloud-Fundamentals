@@ -1,0 +1,14 @@
+Simple but effective way to route to the API in distributed environment.<br />
+Routes the request to various microservices<br />
+
+SpringCloud gateway has 3 important parts
+- Route
+- Predicate
+- Filters
+
+# Provides
+- Security
+- Tracing
+- Service Aggregation
+- Rate Limits
+- Configure the cross cutting concerns
