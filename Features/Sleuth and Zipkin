@@ -1,0 +1,6 @@
+When we have lot of microservices running, It's very important that we should be able o trace the client request coming and see how the request going from the one microservice to other.
+and if its fails, where exactly failed.Sleuth and Zipkin provides the distributed Tracing capabilities.
+
+#Dependencies
+- Spring-cloud-starter-sleuth
+- Spring-cloud-starter-zipkin
