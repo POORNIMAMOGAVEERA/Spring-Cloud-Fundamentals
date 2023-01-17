@@ -1,0 +1,7 @@
+Every microservice application has configuation associated with itself, it could be DB configuration, Message Brokers, Application Configuration.
+To make sure right coniguration push across the different environments.That's where centralized configuration comes in.
+
+Steps
+- Create Config Server
+- Create Config Repository
+- Create Config Client
