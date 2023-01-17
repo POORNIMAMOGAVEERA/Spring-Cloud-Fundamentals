@@ -1,0 +1,32 @@
+# Ribbon
+- Load will be evenly distributed across the instances of the microservice.
+- Client side load balancing
+
+# Dependency
+- spring-cloud-starter-netflix-ribbon
+
+# Annotation
+@RibbonClient(application-name)
+
+
+# Zuul
+- Non functional requirements that common across the microservices
+  * Security
+  * Tracing
+  * Service Aggregation
+  * Rate Limits
+  these concerns are taken care by Zuul Proxy Gateway
+ - It's similar in features as Spring cloud gateway
+ - All the request route through the Zuul Proxy Gateway
+ 
+ # Hystrix
+ - When we implement microservice architecture there are lot's of microservices running, one of these microservices stop running then entire system should not collapse.
+ - Hystrix has Fault Tolerance capability
+ 
+ # Dependencies
+ - spring-cloud-starter-hystrix
+ - spring-cloud-netflix-hystrix-dashboard
+ 
+ # Annotation
+ @EnableHystrix
+ @EnableHystrixDashboard
